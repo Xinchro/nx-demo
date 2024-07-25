@@ -3,30 +3,21 @@
   "namedInputs": {
     "allProjectFiles": ["{projectRoot}/**/*"],
     "globalLintingConfigFiles": [
-      "{workspaceRoot}/.eslintrc.js",
-      "{workspaceRoot}/.eslintrcignore",
-      "{workspaceRoot}/eslint-configs/*.js"
+      "{workspaceRoot}/.eslintrc.json",
+      "{workspaceRoot}/.eslintrcignore"
     ],
     "globalUnitTestingConfigFiles": [
       "{workspaceRoot}/jest.config.ts",
-      "{workspaceRoot}/jest.preset.js",
-      "{workspaceRoot}/jest.resolver.js",
-      "{workspaceRoot}/.coverage.js"
+      "{workspaceRoot}/jest.preset.js"
     ],
     "production": [
       "allProjectFiles",
       "!{projectRoot}/**/*.spec.ts",
-      "!{projectRoot}/**/*.md",
-      "!{projectRoot}/src/test.ts",
       "!{projectRoot}/tsconfig.spec.json",
       "!{projectRoot}/jest.config.ts",
-      "{workspaceRoot}/.browserslistrc",
-      "{workspaceRoot}/.htmlhintrc",
       "!{projectRoot}/src/test-setup.[jt]s"
     ],
     "sharedGlobals": [
-      "{workspaceRoot}/action-config.json",
-      "{workspaceRoot}/.npmrc",
       "{workspaceRoot}/.nvmrc",
       "{workspaceRoot}/.github/workflows/ci.yml"
     ],
