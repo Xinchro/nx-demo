@@ -31,7 +31,9 @@
       "{workspaceRoot}/.github/workflows/ci.yml"
     ],
     "default": ["allProjectFiles", "sharedGlobals", "projectSpecificFiles"],
-    "projectSpecificFiles": []
+    "projectSpecificFiles": [
+      "infra/**/*"
+    ]
   },
   "targetDefaults": {
     "@angular-devkit/build-angular:browser": {
