@@ -1,0 +1,9 @@
+{
+  "name": "randomapp-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/randomapp-e2e/src",
+  "implicitDependencies": ["randomapp"],
+  "// targets": "to see all targets run: nx show project randomapp-e2e --web",
+  "targets": {}
+}
