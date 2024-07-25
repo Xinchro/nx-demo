@@ -30,14 +30,14 @@
       "{workspaceRoot}/.nvmrc",
       "{workspaceRoot}/.github/workflows/ci.yml"
     ],
-    "default": ["allProjectFiles", "sharedGlobals", "projectSpecificFiles"],
+    "default": ["production", "sharedGlobals", "projectSpecificFiles"],
     "projectSpecificFiles": []
   },
   "targetDefaults": {
     "@angular-devkit/build-angular:browser": {
       "cache": true,
       "dependsOn": ["^build"],
-      "inputs": ["default", "production", "^production"]
+      "inputs": ["default", "^production"]
     },
     "@nx/eslint:lint": {
       "cache": true,
