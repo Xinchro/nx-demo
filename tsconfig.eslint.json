@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "strictNullChecks": true
+  },
+  "include": [
+    "./apps/**/*.ts",
+    "./libs/**/*.ts"
+  ]
+}

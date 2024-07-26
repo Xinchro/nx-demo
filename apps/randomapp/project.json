@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "apps/randomapp/src",
-  "tags": [],
+  "tags": ["app:randomapp"],
   "namedInputs": {
     "projectSpecificFiles": [
       "{workspaceRoot}/infra/**/*"
@@ -24,7 +24,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/randomapp/public"
+            "input": "apps/randomapp/public",
+            "output": "/"
           }
         ],
         "styles": ["apps/randomapp/src/styles.scss"],

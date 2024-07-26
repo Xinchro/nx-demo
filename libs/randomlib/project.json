@@ -4,7 +4,7 @@
   "sourceRoot": "libs/randomlib/src",
   "prefix": "lib",
   "projectType": "library",
-  "tags": [],
+  "tags": ["lib:randomlib", "scope:randomlib"],
   "targets": {
     "test": {
       "executor": "@nx/jest:jest",
