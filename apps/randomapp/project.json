@@ -5,6 +5,11 @@
   "prefix": "app",
   "sourceRoot": "apps/randomapp/src",
   "tags": [],
+  "namedInputs": {
+    "projectSpecificFiles": [
+      "{workspaceRoot}/infra/**/*"
+    ]
+  },
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
