@@ -3,7 +3,7 @@
   "namedInputs": {
     "allProjectFiles": ["{projectRoot}/**/*"],
     "globalLintingConfigFiles": [
-      "{workspaceRoot}/.eslintrc.json",
+      "{workspaceRoot}/.eslintrc.js",
       "{workspaceRoot}/.eslintrcignore"
     ],
     "globalUnitTestingConfigFiles": [
@@ -35,7 +35,7 @@
       "inputs": [
         "allProjectFiles",
         "globalLintingConfigFiles",
-        "{workspaceRoot}/.eslintrc.json"
+        "{workspaceRoot}/.eslintrc.js"
       ]
     },
     "@nx/jest:jest": {
